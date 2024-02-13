@@ -1,6 +1,5 @@
 import pandas as pd
 from pandas import DataFrame
-from pandas.core import series
 
 
 def calculateMacdHightCount(params: DataFrame):
@@ -15,6 +14,48 @@ def calculateMacdHightCount(params: DataFrame):
             df['macd_hight_count'].iloc[len(df) - 1] = df['macd_hight_count'].iloc[len(df) - 2] + 1
         else:
             df['macd_hight_count'].iloc[len(df) - 1] = 1
+
+
+def is_standard_three(pre_index: int, trend: int, params: DataFrame):
+    # todo dp, direction > 0 取正， 小于0 取负
+    # todo dp, trend > 0 看空趋势， trend < 0 看多趋势
+    start = len(params) - 1
+    end = len(params) - 1
+    result_standard_three = True
+    item = 3
+    while start > 0 and item > 0:
+        end = start
+        start = start - int(abs(params['macd_hight_count'].iloc[start]))
+        # 看空趋势
+        if trend == 1:
+            if item == 3:
+                if not (end - start >= 3 and params['macd_hight_count'].iloc[end] > 0):
+                    result_standard_three = False
+                    break
+            elif item == 2:
+                if not (end - start >= 5 and params['macd_hight_count'].iloc[end] < 0):
+                    result_standard_three = False
+                    break
+            elif item == 1:
+                if not (end - start >= 3 and params['macd_hight_count'].iloc[end] > 0 and end > pre_index > start):
+                    result_standard_three = False
+                    break
+        # 看多趋势
+        elif trend == -1:
+            if item == 3:
+                if not (end - start >= 3 and params['macd_hight_count'].iloc[end] < 0):
+                    result_standard_three = False
+                    break
+            elif item == 2:
+                if not (end - start >= 5 and params['macd_hight_count'].iloc[end] > 0):
+                    result_standard_three = False
+                    break
+            elif item == 1:
+                if not (end - start >= 3 and params['macd_hight_count'].iloc[end] < 0 and end > pre_index > start):
+                    result_standard_three = False
+                    break
+        item = item - 1
+    return result_standard_three
 
 
 def calculateGroup(data: tuple, params: DataFrame):
@@ -119,6 +160,21 @@ df['MAD_Column'] = df['Deviation'] - df['Deviation'].abs().mean()
 calculateMacdHightCount(df)
 print(df)
 
+df = df.append({'Date': '2022-02-10 00:00:00', 'Close': 100}, ignore_index=True)
+df['MA'] = df['Close'].rolling(window=3).mean()
+df['Deviation'] = df['Close'] - df['MA']
+df['MAD_Column'] = df['Deviation'] - df['Deviation'].abs().mean()
+calculateMacdHightCount(df)
+print(df)
+
+df = df.append({'Date': '2022-02-10 00:00:00', 'Close': 90}, ignore_index=True)
+df['MA'] = df['Close'].rolling(window=3).mean()
+df['Deviation'] = df['Close'] - df['MA']
+df['MAD_Column'] = df['Deviation'] - df['Deviation'].abs().mean()
+calculateMacdHightCount(df)
+print(df)
+
+
 df = df.append({'Date': '2022-02-10 00:00:00', 'Close': 120}, ignore_index=True)
 df['MA'] = df['Close'].rolling(window=3).mean()
 df['Deviation'] = df['Close'] - df['MA']
@@ -140,10 +196,39 @@ df['MAD_Column'] = df['Deviation'] - df['Deviation'].abs().mean()
 calculateMacdHightCount(df)
 print(df)
 
-df = df.append({'Date': '2022-02-10 00:00:00', 'Close': 131}, ignore_index=True)
+df = df.append({'Date': '2022-02-10 00:00:00', 'Close': 140}, ignore_index=True)
 df['MA'] = df['Close'].rolling(window=3).mean()
 df['Deviation'] = df['Close'] - df['MA']
 df['MAD_Column'] = df['Deviation'] - df['Deviation'].abs().mean()
 calculateMacdHightCount(df)
 print(df)
-print(calculateGroup((1, 2, 3), df))
+
+df = df.append({'Date': '2022-02-10 00:00:00', 'Close': 145}, ignore_index=True)
+df['MA'] = df['Close'].rolling(window=3).mean()
+df['Deviation'] = df['Close'] - df['MA']
+df['MAD_Column'] = df['Deviation'] - df['Deviation'].abs().mean()
+calculateMacdHightCount(df)
+print(df)
+
+
+df = df.append({'Date': '2022-02-10 00:00:00', 'Close': 135}, ignore_index=True)
+df['MA'] = df['Close'].rolling(window=3).mean()
+df['Deviation'] = df['Close'] - df['MA']
+df['MAD_Column'] = df['Deviation'] - df['Deviation'].abs().mean()
+calculateMacdHightCount(df)
+print(df)
+
+df = df.append({'Date': '2022-02-10 00:00:00', 'Close': 132}, ignore_index=True)
+df['MA'] = df['Close'].rolling(window=3).mean()
+df['Deviation'] = df['Close'] - df['MA']
+df['MAD_Column'] = df['Deviation'] - df['Deviation'].abs().mean()
+calculateMacdHightCount(df)
+print(df)
+
+df = df.append({'Date': '2022-02-10 00:00:00', 'Close': 130}, ignore_index=True)
+df['MA'] = df['Close'].rolling(window=3).mean()
+df['Deviation'] = df['Close'] - df['MA']
+df['MAD_Column'] = df['Deviation'] - df['Deviation'].abs().mean()
+calculateMacdHightCount(df)
+print(df)
+print(is_standard_three(45, -1, df))
