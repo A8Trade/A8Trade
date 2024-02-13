@@ -1,0 +1,6 @@
+*.idea*
+ccxt-master
+*/__pycache__
+*/*/__pycache__
+/backtest/.vntrader/database.db
+/backtest/binance
