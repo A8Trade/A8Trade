@@ -1,0 +1,62 @@
+# 盈
+15min, dateTime:2024-01-01 07:30:00,close_price:42241.09,  td: -7.0, 信号:'多'
+    15min, dateTime:2024-01-01 18:45:00,close_price:42691.1,  td: 9.0, 信号:'空'
+    15min, dateTime:2024-01-02 09:00:00,close_price:44841.22,  td: 8.0, 信号:'空'
+    15min, dateTime:2024-01-02 11:45:00,close_price:45402.38,  td: 7.0, 信号:'空'
+    15min, dateTime:2024-01-02 12:00:00,close_price:45390.0,  td: 8.0, 信号:'空'
+    15min, dateTime:2024-01-02 12:15:00,close_price:45362.27,  td: 9.0, 信号:'空'
+
+# 盈
+15min, dateTime:2024-01-03 20:15:00,close_price:42316.43,  td: -8.0, 信号:'多'
+2024-02-25 14:28:55.589415	策略初始化完成
+on_start strategy
+2024-02-25 14:28:55.589470	开始回放历史数据
+
+# 损
+15min, dateTime:2024-01-04 23:45:00,close_price:44051.1,  td: 7.0, 信号:'空'
+15min, dateTime:2024-01-05 00:00:00,close_price:43928.01,  td: 8.0, 信号:'空'
+
+# 损
+15min, dateTime:2024-01-08 07:45:00,close_price:43929.02,  td: -7.0, 信号:'多'
+# 损
+15min, dateTime:2024-01-08 20:15:00,close_price:44518.16,  td: 8.0, 信号:'空'
+# 多
+15min, dateTime:2024-01-09 03:15:00,close_price:46663.97,  td: 9.0, 信号:'空'
+# 盈
+15min, dateTime:2024-01-10 17:00:00,close_price:45459.9,  td: -8.0, 信号:'多'
+# 损
+15min, dateTime:2024-01-11 20:00:00,close_price:47016.52,  td: 7.0, 信号:'空'
+15min, dateTime:2024-01-13 00:45:00,close_price:43624.0,  td: -9.0, 信号:'多'
+15min, dateTime:2024-01-22 12:30:00,close_price:41037.75,  td: -8.0, 信号:'多'
+15min, dateTime:2024-01-23 03:45:00,close_price:39820.31,  td: -7.0, 信号:'多'
+15min, dateTime:2024-01-26 20:30:00,close_price:41214.96,  td: 9.0, 信号:'空'
+15min, dateTime:2024-01-28 05:00:00,close_price:42039.43,  td: 9.0, 信号:'空'
+15min, dateTime:2024-01-28 13:15:00,close_price:42668.9,  td: 7.0, 信号:'空'
+15min, dateTime:2024-01-28 13:30:00,close_price:42483.92,  td: 8.0, 信号:'空'
+15min, dateTime:2024-01-30 01:00:00,close_price:43067.61,  td: 7.0, 信号:'空'
+15min, dateTime:2024-01-30 01:30:00,close_price:43055.99,  td: 9.0, 信号:'空'
+15min, dateTime:2024-01-30 10:45:00,close_price:43615.15,  td: 7.0, 信号:'空'
+15min, dateTime:2024-01-31 23:45:00,close_price:43361.1,  td: 9.0, 信号:'空'
+15min, dateTime:2024-02-01 10:00:00,close_price:42114.19,  td: -7.0, 信号:'多'
+15min, dateTime:2024-02-01 23:30:00,close_price:42707.87,  td: 7.0, 信号:'空'
+15min, dateTime:2024-02-05 03:30:00,close_price:42669.86,  td: -7.0, 信号:'多'
+15min, dateTime:2024-02-05 21:45:00,close_price:43447.67,  td: 8.0, 信号:'空'
+15min, dateTime:2024-02-05 22:00:00,close_price:43376.68,  td: 9.0, 信号:'空'
+15min, dateTime:2024-02-06 00:00:00,close_price:42661.23,  td: -7.0, 信号:'多'
+15min, dateTime:2024-02-06 00:30:00,close_price:42581.11,  td: -9.0, 信号:'多'
+15min, dateTime:2024-02-07 00:30:00,close_price:43270.0,  td: 8.0, 信号:'空'
+15min, dateTime:2024-02-08 02:30:00,close_price:43551.21,  td: 8.0, 信号:'空'
+15min, dateTime:2024-02-08 05:45:00,close_price:44185.96,  td: 7.0, 信号:'空'
+15min, dateTime:2024-02-08 09:30:00,close_price:44548.52,  td: 8.0, 信号:'空'
+15min, dateTime:2024-02-09 11:15:00,close_price:46061.23,  td: 7.0, 信号:'空'
+15min, dateTime:2024-02-09 17:00:00,close_price:46579.79,  td: 8.0, 信号:'空'
+15min, dateTime:2024-02-09 20:45:00,close_price:47323.99,  td: 8.0, 信号:'空'
+15min, dateTime:2024-02-11 03:45:00,close_price:47531.09,  td: 7.0, 信号:'空'
+15min, dateTime:2024-02-11 12:00:00,close_price:48359.9,  td: 7.0, 信号:'空'
+15min, dateTime:2024-02-13 00:00:00,close_price:49637.76,  td: 8.0, 信号:'空'
+15min, dateTime:2024-02-14 18:15:00,close_price:51311.43,  td: 7.0, 信号:'空'
+15min, dateTime:2024-02-14 22:00:00,close_price:51707.0,  td: 9.0, 信号:'空'
+15min, dateTime:2024-02-17 22:45:00,close_price:50841.09,  td: -7.0, 信号:'多'
+15min, dateTime:2024-02-17 23:15:00,close_price:50988.0,  td: -9.0, 信号:'多'
+15min, dateTime:2024-02-19 06:30:00,close_price:52111.1,  td: 7.0, 信号:'空'
+15min, dateTime:2024-02-20 19:45:00,close_price:52286.8,  td: 7.0, 信号:'空'
