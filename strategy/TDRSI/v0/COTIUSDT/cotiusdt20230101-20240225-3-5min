@@ -31,9 +31,6 @@
 3min, dateTime:2024-01-03 15:09:00,close_price:0.07562,  td: 8.0, 信号:'空'
 3min, dateTime:2024-01-03 20:12:00,close_price:0.06276,  td: -9.0, 信号:'多'
 5min, dateTime:2024-01-03 20:20:00,close_price:0.06511,  td: -7.0, 信号:'多'
-2024-02-25 16:50:16.458916	策略初始化完成
-on_start strategy
-2024-02-25 16:50:16.458953	开始回放历史数据
 3min, dateTime:2024-01-04 03:03:00,close_price:0.06384,  td: -8.0, 信号:'多'
 3min, dateTime:2024-01-04 08:54:00,close_price:0.0654,  td: 8.0, 信号:'空'
 3min, dateTime:2024-01-04 18:24:00,close_price:0.06451,  td: -9.0, 信号:'多'
@@ -234,7 +231,6 @@ on_start strategy
 5min, dateTime:2024-01-28 19:45:00,close_price:0.05624,  td: -7.0, 信号:'多'
 3min, dateTime:2024-01-29 03:42:00,close_price:0.05494,  td: -8.0, 信号:'多'
 3min, dateTime:2024-01-29 03:45:00,close_price:0.05523,  td: -9.0, 信号:'多'
-3min, dateTime:2024-01-29 08:36:00,close_price:0.05549,  td: 7.0, 信号:'空'
 3min, dateTime:2024-01-29 09:30:00,close_price:0.05611,  td: 9.0, 信号:'空'
 3min, dateTime:2024-01-29 15:42:00,close_price:0.05527,  td: -7.0, 信号:'多'
 3min, dateTime:2024-01-29 15:48:00,close_price:0.05522,  td: -9.0, 信号:'多'
