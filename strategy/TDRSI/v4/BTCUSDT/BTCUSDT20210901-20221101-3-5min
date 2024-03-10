@@ -1,0 +1,111 @@
+# 盈
+3min, dateTime:2021-09-01 01:42:00,close_price:47163.25,  td: -8.0, 信号:'多'
+# 盈
+5min, dateTime:2021-09-02 01:50:00,close_price:48734.76,  td: 7.0, 信号:'空'
+# 盈
+3min, dateTime:2021-09-02 03:45:00,close_price:48254.65,  td: -9.0, 信号:'多'
+# 盈
+3min, dateTime:2021-09-02 06:15:00,close_price:48625.37,  td: 8.0, 信号:'空'
+# 损 如何过滤假下降
+3min, dateTime:2021-09-02 14:51:00,close_price:49827.01,  td: 9.0, 信号:'空'
+# 损 如何过滤假下降
+5min, dateTime:2021-09-02 14:50:00,close_price:49722.19,  td: 8.0, 信号:'空'
+5min, dateTime:2021-09-02 15:30:00,close_price:50082.81,  td: 7.0, 信号:'空'
+
+# 损 如何过滤假下降
+3min, dateTime:2021-09-02 22:45:00,close_price:49697.22,  td: -9.0, 信号:'多'
+# 盈
+3min, dateTime:2021-09-02 23:09:00,close_price:49481.16,  td: -8.0, 信号:'多'
+# 盈
+3min, dateTime:2021-09-03 06:03:00,close_price:49743.09,  td: 8.0, 信号:'空'
+# 损 如何过滤假下降
+5min, dateTime:2021-09-03 07:30:00,close_price:49310.63,  td: -7.0, 信号:'多'
+# 大盈
+3min, dateTime:2021-09-03 09:33:00,close_price:48561.17,  td: -7.0, 信号:'多'
+# 盈
+3min, dateTime:2021-09-03 13:00:00,close_price:49671.57,  td: 8.0, 信号:'空'
+# 损
+3min, dateTime:2021-09-03 17:00:00,close_price:49945.49,  td: 8.0, 信号:'空'
+# 盈
+3min, dateTime:2021-09-03 18:45:00,close_price:50285.48,  td: 8.0, 信号:'空'
+# 损， 可以通过均线来筛选
+3min, dateTime:2021-09-04 02:06:00,close_price:50336.16,  td: -7.0, 信号:'多'
+# 损， 可以通过均线来筛选
+3min, dateTime:2021-09-04 04:24:00,close_price:50188.15,  td: -7.0, 信号:'多'
+# 盈
+3min, dateTime:2021-09-04 19:06:00,close_price:49877.88,  td: -8.0, 信号:'多'
+# 损
+5min, dateTime:2021-09-05 11:35:00,close_price:49823.95,  td: -9.0, 信号:'多'
+# 盈
+3min, dateTime:2021-09-05 12:00:00,close_price:49757.14,  td: -8.0, 信号:'多'
+# 盈
+3min, dateTime:2021-09-05 14:24:00,close_price:49566.14,  td: -7.0, 信号:'多'
+# 损
+3min, dateTime:2021-09-06 04:30:00,close_price:50899.46,  td: 9.0, 信号:'空'
+# 损
+3min, dateTime:2021-09-06 06:00:00,close_price:51656.29,  td: 9.0, 信号:'空'
+# 损
+5min, dateTime:2021-09-06 06:20:00,close_price:51599.36,  td: 8.0, 信号:'空'
+# 盈
+3min, dateTime:2021-09-06 11:54:00,close_price:51556.6,  td: -7.0, 信号:'多'
+# 盈
+3min, dateTime:2021-09-06 14:54:00,close_price:51818.62,  td: 7.0, 信号:'空'
+# 盈
+3min, dateTime:2021-09-06 19:18:00,close_price:51690.73,  td: 8.0, 信号:'空'
+# 损
+3min, dateTime:2021-09-06 19:42:00,close_price:51478.17,  td: -8.0, 信号:'多'
+# 损
+3min, dateTime:2021-09-06 22:24:00,close_price:51634.15,  td: 8.0, 信号:'空'
+# 盈
+3min, dateTime:2021-09-07 03:15:00,close_price:51950.62,  td: 7.0, 信号:'空'
+5min, dateTime:2021-09-07 03:15:00,close_price:51945.19,  td: 8.0, 信号:'空'
+# 损
+5min, dateTime:2021-09-07 06:10:00,close_price:52254.98,  td: 8.0, 信号:'空'
+# 盈
+3min, dateTime:2021-09-07 17:45:00,close_price:50943.99,  td: -7.0, 信号:'多'
+# 损
+5min, dateTime:2021-09-07 18:00:00,close_price:50946.68,  td: -8.0, 信号:'多'
+# 损
+3min, dateTime:2021-09-07 22:00:00,close_price:50675.91,  td: -9.0, 信号:'多'
+# 损
+3min, dateTime:2021-09-08 04:48:00,close_price:46515.78,  td: -7.0, 信号:'多'
+# 损
+3min, dateTime:2021-09-08 14:00:00,close_price:46227.43,  td: -9.0, 信号:'多'
+
+3min, dateTime:2021-09-09 21:12:00,close_price:46900.04,  td: 8.0, 信号:'空'
+5min, dateTime:2021-09-10 02:25:00,close_price:46749.51,  td: -7.0, 信号:'多'
+3min, dateTime:2021-09-10 04:39:00,close_price:46256.99,  td: -8.0, 信号:'多'
+5min, dateTime:2021-09-10 15:40:00,close_price:46206.6,  td: -8.0, 信号:'多'
+5min, dateTime:2021-09-10 22:45:00,close_price:45205.83,  td: -9.0, 信号:'多'
+5min, dateTime:2021-09-11 05:00:00,close_price:45143.72,  td: -8.0, 信号:'多'
+3min, dateTime:2021-09-11 05:54:00,close_price:44538.79,  td: -8.0, 信号:'多'
+5min, dateTime:2021-09-11 05:55:00,close_price:44592.91,  td: -8.0, 信号:'多'
+3min, dateTime:2021-09-11 08:15:00,close_price:45048.02,  td: 9.0, 信号:'空'
+3min, dateTime:2021-09-11 15:21:00,close_price:44962.94,  td: -9.0, 信号:'多'
+5min, dateTime:2021-09-11 15:45:00,close_price:44889.47,  td: -9.0, 信号:'多'
+3min, dateTime:2021-09-12 00:45:00,close_price:45839.03,  td: 9.0, 信号:'空'
+3min, dateTime:2021-09-12 03:36:00,close_price:45408.4,  td: -9.0, 信号:'多'
+3min, dateTime:2021-09-12 04:18:00,close_price:45261.5,  td: -7.0, 信号:'多'
+3min, dateTime:2021-09-12 10:21:00,close_price:45182.21,  td: 9.0, 信号:'空'
+3min, dateTime:2021-09-12 20:09:00,close_price:46093.0,  td: 9.0, 信号:'空'
+3min, dateTime:2021-09-13 09:18:00,close_price:45482.15,  td: -7.0, 信号:'多'
+3min, dateTime:2021-09-13 11:03:00,close_price:44962.9,  td: -7.0, 信号:'多'
+3min, dateTime:2021-09-13 15:33:00,close_price:44444.43,  td: -8.0, 信号:'多'
+3min, dateTime:2021-09-13 22:21:00,close_price:43760.91,  td: -8.0, 信号:'多'
+3min, dateTime:2021-09-14 23:15:00,close_price:46780.56,  td: 8.0, 信号:'空'
+5min, dateTime:2021-09-15 04:45:00,close_price:46793.02,  td: 9.0, 信号:'空'
+5min, dateTime:2021-09-15 19:00:00,close_price:47520.0,  td: 7.0, 信号:'空'
+5min, dateTime:2021-09-15 23:20:00,close_price:47980.99,  td: 7.0, 信号:'空'
+3min, dateTime:2021-09-16 00:18:00,close_price:48338.5,  td: 7.0, 信号:'空'
+3min, dateTime:2021-09-16 02:09:00,close_price:47979.61,  td: -9.0, 信号:'多'
+3min, dateTime:2021-09-16 07:03:00,close_price:48266.55,  td: 8.0, 信号:'空'
+5min, dateTime:2021-09-16 07:20:00,close_price:48189.01,  td: 7.0, 信号:'空'
+5min, dateTime:2021-09-16 12:25:00,close_price:48214.01,  td: 9.0, 信号:'空'
+3min, dateTime:2021-09-16 12:51:00,close_price:48329.54,  td: 8.0, 信号:'空'
+5min, dateTime:2021-09-16 16:35:00,close_price:48109.85,  td: -9.0, 信号:'多'
+3min, dateTime:2021-09-16 18:00:00,close_price:47976.55,  td: -8.0, 信号:'多'
+3min, dateTime:2021-09-16 18:33:00,close_price:47776.08,  td: -7.0, 信号:'多'
+5min, dateTime:2021-09-16 22:20:00,close_price:47459.98,  td: -8.0, 信号:'多'
+3min, dateTime:2021-09-16 23:33:00,close_price:48058.7,  td: 8.0, 信号:'空'
+5min, dateTime:2021-09-17 02:00:00,close_price:47563.06,  td: -8.0, 信号:'多'
+5min, dateTime:2021-09-17 04:55:00,close_price:47146.62,  td: -7.0, 信号:'多'
